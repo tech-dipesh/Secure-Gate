@@ -29,6 +29,6 @@
 - User can Forget Password, but before that they must exist their username and can Forget Password
 - After Success Authetication user will redirec to the Simple static homepage with teh success Message.
 
+# Project Start: 2025/11/29
 
-# project Completion:
-2025/12/01
+# project Completion: 2025/12/01
