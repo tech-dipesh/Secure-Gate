@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Our Website.</title>
+</head>
+  <link rel="stylesheet" href="signup.css">
+<body>
+   <ul>
+    <a href="../Home/index.html"><li>Home</li></a>
+    <a href="../Login/index.html"><li>Login</li></a>
+    <a href="../Signup/signup.html"><li>Signup</li></a>
+    <a href="../Forget/index.html"><li>Forget</li></a>
+  </ul>
+    <form id="signup">
+      <label for="fname">Full Name:</label>
+      <input type="text" placeholder="Full Name" id="fname">
+      <br>
+      <label for="username">Username:</label>
+      <input type="text" placeholder="Username" id="username">
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Please enter your Email:">
+      <br>
+      <label for="password">Password:
+        <input type="text" id="password" placeholder="Please enter a unique password.">
+        <br>
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="text" placeholder="Confirm Password" id="confirm-password">
+         
+        <div id="error"></div>
+        <br>
+      </label>
+      <button>Submit</button>
+    </form>
+    <script src="signup.js"></script>
+</body>
+</html>

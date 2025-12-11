@@ -1,0 +1,52 @@
+ ul li{
+    list-style-type: none;
+    display: grid;
+    color: #007bff;
+  }
+  ul:hover {
+    cursor: pointer;
+    font-size: 35px;
+}
+ul {
+    display: flex;
+    gap: 20%;
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration: underline;
+    background-color: gray;
+    height: 50px;
+    border-radius: 10px;
+}
+a{
+  text-decoration: none;
+}
+
+input {
+    width: 100%;
+    font-size: 25px;
+}
+
+form {
+    font-size: 25px;
+    margin-left: 10%;
+    background-color: #007bff;
+    display: grid;
+    justify-content: center;
+    width: 50%;
+    border-radius: 5%;
+}
+
+   form{
+      font-size: 25px;
+      margin-left: 10%;
+    }
+
+
+button {
+    background-color: bisque;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 50px;
+    margin-bottom: 5%;
+}
