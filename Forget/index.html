@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forget Password</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+   <ul>
+    <a href="../Home/index.html"><li>Home</li></a>
+    <a href="../Login/index.html"><li>Login</li></a>
+    <a href="../Signup/signup.html"><li>Signup</li></a>
+    <a href="../Forget/index.html"><li>Forget</li></a>
+  </ul>
+  <div id="main">
+
+    <h2>Forget Password here</h2>
+    <div id="username">
+      <input type="text" placeholder="Please enter your username for verification." id="uservalue">
+      <button id="userid">Check Username</button>
+      <div id="usererror">Username is Not Correct.</div>
+  </div>
+  <div id="password">
+    <input type="text" placeholder="Please Enter your New Password." id="passvalue">
+    <button id="passid">Change Password.</button>
+  </div>
+  <div id="passerror">Password is Not Correct.</div>
+</div>
+<div id="success"></div>
+<script src="index.js"></script>
+</body>
+</html>

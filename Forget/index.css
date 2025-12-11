@@ -1,0 +1,63 @@
+  #usererror, #password, #passerror{
+    display: none;
+  }
+ #main {
+    height: 500px;
+    width: 50%;
+    background-color: #007bff;
+    display: grid;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+input{
+  background-color: darkblue;
+}
+
+input#passvalue {
+    width: 120%;
+    height: 30%;
+    border: none;
+    border-radius: 5px;
+}
+#passvalue:focus {
+    background-color: bisque;
+    color: white;
+}
+
+button#passid {
+    color: black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 50px;
+    width: 60%;
+    border: none;
+    margin: 0 0 0 20%;
+    cursor: pointer;
+}
+#success{
+  display: none;
+}
+
+ ul li{
+    list-style-type: none;
+    display: grid;
+    color: #007bff;
+  }
+  ul:hover {
+    cursor: pointer;
+    font-size: 35px;
+}
+ul {
+    display: flex;
+    gap: 20%;
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration: underline;
+    background-color: gray;
+    height: 50px;
+    border-radius: 10px;
+}
+a{
+  text-decoration: none;
+}

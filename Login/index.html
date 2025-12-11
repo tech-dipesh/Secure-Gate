@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Authentication.</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+   <ul>
+    <a href="../Home/index.html"><li>Home</li></a>
+    <a href="../Login/index.html"><li>Login</li></a>
+    <a href="../Signup/signup.html"><li>Signup</li></a>
+    <a href="../Forget/index.html"><li>Forget</li></a>
+  </ul>
+  <div id="login">
+    <h2>Welcome back to Authentication System.</h2>
+    <label for="user-name">Username</label>
+    <input type="text" id="user-name" placeholder="Please enter your UserName.">
+    <div id="username-error"></div>
+    <br>
+      <label for="password">Password:</label>
+      <input type="text" placeholder="Please Enter your correct password." id="password">
+      <div id="password-error"></div>
+      <br>
+      <div id="error"></div>
+      <br>
+      <button>Submit</button>
+    </div>
+    <div id="below">
+
+      <button id="signup">
+        <a href="../Signup/signup.html">Don't have a account?</a>
+      </button>
+      <br>
+      <button id="forget">
+        <a href="../Forget/index.html">Forget Password?</a>
+      </button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
